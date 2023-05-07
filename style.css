@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 20vh;
+  background-image: url("https://i.pinimg.com/736x/7d/a6/96/7da696f1987d39249d42946f331ccc1b--declutter-lego.jpg");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main {
+  background-image: url("https://media1.popsugar-assets.com/files/thumbor/bzZIujvmK6EiajFntYJeDoqMbvI/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/04/08/956/n/1922507/5b76eee404090c1b_The_Simpsons/i/Simpsons-Zoom-Background.png");
+}
+
+.logoHeader {
+  width: 8vw;
+}
+
+.menuHeader {
+  width: 50vw;
+}
+
+.menuList {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.listItem {
+  list-style: none;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.listItem:hover {
+  color: yellow;
+  background-color: pink;
+  border-radius: 10%;
+  font-size: 3rem;
+}
+
+#containerOne {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#containerOne img {
+  width: 100%;
+  height: 30vh;
+  margin-top: 1rem;
+}
+
+figcaption {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+}
+
+#containerTwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgAbraham {
+  width: 100%;
+  height: 40vh;
+}
